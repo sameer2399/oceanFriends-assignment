@@ -3,6 +3,7 @@ import wifiIcon from "../../assets/wifiIcon.svg";
 import masterCardIcon from "../../assets/masterCardIcon.svg";
 const Card = (props) => {
   const { data } = props;
+  console.log(data);
 
   return (
     <div

@@ -1,3 +1,10 @@
+import mobileIcon from "../assets/mobileIcon.svg";
+import wifiIcon2 from "../assets/wifiIcon2.svg";
+import carIcon from "../assets/carIcon.svg";
+import houseIcon from "../assets/houseIcon.svg";
+import flashIcon from "../assets/flashIcon.svg";
+
+
 export const cardData = [
   {
     type: "CB",
@@ -19,4 +26,33 @@ export const cardData = [
     colorTo: "to-[#ED6F2F]",
     balance: "$2,748.00",
   }, 
+];
+
+export const catalogueData = [
+
+  {
+    type: "Mobile",
+    debt: "$34.00",
+    icon: mobileIcon ,
+  },
+  {
+    type: "Internet and TV",
+    debt: "$21.00",
+    icon: wifiIcon2,
+  },
+  {
+    type: "Traffic fines",
+    debt: "$1221.00",
+    icon: carIcon ,
+  },
+  {
+    type: "Housing services",
+    debt: "$0.00",
+    icon: houseIcon ,
+  },
+  {
+    type: "Utility payment",
+    debt: "$442.00",
+    icon: flashIcon ,
+  },
 ];
